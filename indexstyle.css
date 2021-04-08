@@ -39,11 +39,9 @@ body {
 .project1 {
   font-size: 25px;
 }
-.project2 {
-  font-size: 25px;
-}
 .project1header {
   margin-left: 250px;
+  margin-top: 0px;
 }
 .projectstext {
   font-size: 80px;
@@ -52,11 +50,6 @@ body {
   font-weight: normal;
 }
 .project1img {
-  float: left;
-  margin-right: 15px;
-  margin-bottom: 15px;
-}
-.project2img {
   float: left;
   margin-right: 15px;
   margin-bottom: 15px;
@@ -214,7 +207,8 @@ body {
   display: flex;
 }
 
-.button {
+.button1 {
+  margin-left: 685px;
   min-width: 150px;
   min-height: 40px;
   font-family: "Courier New", Courier, monospace;
@@ -258,6 +252,7 @@ body {
   .button1 {
     min-width: 150px;
     min-height: 40px;
+    margin-left: 0px;
   }
   .abouttext {
     font-size: 70px;
