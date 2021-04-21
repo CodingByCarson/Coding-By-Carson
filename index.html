@@ -1,133 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Front End-->
     <title>Home - Coding By Carson</title>
-
-    <link href="indexstyle.css" rel="stylesheet" type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
-      integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY="
-      crossorigin="anonymous"
-    />
+    <!-- Back End -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Meta Tags -->
+    <meta name="title" content="Coding By Carson" />
+    <meta name="description" content="13-year-old Web developer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:url" content="https://codingbycarson.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Coding By Carson" />
+    <meta property="og:description" content="13-year-old Web developer" />
+    <meta
+      property="og:image"
+      content="https://codingbycarson.com/img/avatar.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="codingbycarson.com" />
+    <meta property="twitter:url" content="https://codingbycarson.com" />
+    <meta name="twitter:title" content="Coding By Carson" />
+    <meta name="twitter:description" content="13-year-old Web developer" />
+    <meta
+      name="twitter:image"
+      content="https://codingbycarson.com/img/avatar.png"
+    />
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/57ac6218a7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <!--------------------------- START OF MAIN TEXT --------------------------->
+    <nav class="navigation">
+      <div class="navigation-contents">
+        <a class="navigation-contents-about" href="/about.html">about</a>
 
-    <h1 class="abouttext">ABOUT</h1>
-
-    <div
-      style="padding: 10px; border: 3px solid white; border-radius: 10px"
-      class="about"
-    >
-      <h1>Hello World!</h1>
-      <h4>
-        Welcome to my Website, I'm Carson, a 13-year-old web developer learning
-        everyday!
-      </h4>
-    </div>
-    <h1 class="projectstext">PROJECTS</h1>
-
-    <div
-      style="padding: 10px; border: 3px solid white; border-radius: 10px"
-      class="projects"
-    >
-      <div class="project1">
-        <img
-          src="img/twitch-logo-1569611682121.webp"
-          class="project1img"
-          alt="A Better Twitch Homepage"
-          width="500"
-          height="350"
-        />
-        <h1 class="project1header">A Better Twitch Homepage</h1>
-
-        A Better Twitch Homepage is a project to practice my web design, I'm
-        basically recreating the Twitch homepage and making it a bit better in
-        my eyes. I think it's boring to just recreate it without changing
-        anything, this also helps my creativity and coming up with new ideas.
-        <br />
-        <br />
-        <i
-          >Note that the page will not be fully dynamic and most parts are
-          static</i
+        <a class="navigation-contents-projects" href="/projects.html"
+          >projects</a
         >
-        <br />
-        <br />
-        <br />
-        <br />
-        <div class="wrap">
-          <button class="button1">
-            VISIT
-            <a href="http://abthp.codingbycarson.com" target="_blank">
-              <span class="span-link"></span>
-            </a>
-          </button>
+        <a class="navigation-contents-skills" href="/skills.html">skills</a>
+        <div class="navigation-contents-socials">
+          <a
+            class="navigation-contents-twitter"
+            target="_blank"
+            href="https://twitter.com/carson07_"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="navigation-contents-github"
+            target="_blank"
+            href="https://github.com/codingbycarson"
+            ><i class="fab fa-github"></i
+          ></a>
         </div>
       </div>
-    </div>
-    <h1 class="socialstext">BLOG</h1>
-
-    <div
-      style="padding: 10px; border: 3px solid white; border-radius: 10px"
-      class="blog"
-    >
-      <h1>VS Code Extensions Every Web Developer Should Have</h1>
+    </nav>
+    <article class="about">
       <p>
-        It's probably hard for you to find VS Code Extensions for Web
-        development, so, I am going to showcase some VS Code Extensions I’ve
-        found that are useful web development.
+        Hey, I'm Carson, a 13-year-old web developer working on projects and
+        supporting open source projects. I started web development around the
+        beginning of 2020 because of my interest in game dev before hand and I
+        wanted to try something other than game dev and soon fell in love with
+        web dev. I'm still learning everyday and posting tips and advice on my
+        Twitter, I also explore the philosophy of life a lot and sometimes tweet
+        about it but, on the side I like watching Twitch, I also stream
+        sometimes, usually playing Trackmania or Destiny 2. But nowadays I
+        rarely play games anymore because of my strong interest in web
+        development.
       </p>
-      <a
-        href="https://carson07.medium.com/vs-code-extensions-every-web-developer-should-have-2aea0d463e9b"
-        target="_blank"
-        style="color: white"
-        >Read More</a
+      <i
+        >I barely ever promote my Twitch channel but if you want to check it out
+        you can:
+        <a target="_blank" href="https://twitch.tv/waltzedontwitch"
+          >https://twitch.tv/waltzedontwitch</a
+        ></i
       >
-    </div>
-    <h1 class="socialstext">SOCIALS</h1>
-
-    <div
-      style="padding: 10px; border: 3px solid white; border-radius: 10px"
-      class="socials"
-    >
-      <div class="center">
-        <div id="social">
-          <ul>
-            <li class="twitter">
-              <button
-                onclick="window.location.href='https://twitter.com/carson07_';"
-                class="border"
-              >
-                <i class="fa fa-twitter"></i>
-              </button>
-            </li>
-            <li class="twitch">
-              <button
-                onclick="window.location.href='https://twitch.tv/waltzedontwitch';"
-                class="border"
-              >
-                <i class="fa fa-twitch"></i>
-              </button>
-            </li>
-            <li class="github">
-              <button
-                onclick="window.location.href='https://github.com/CodingByCarson';"
-                class="border"
-              >
-                <i class="fa fa-github"></i>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!--------------------------- END OF MAIN TEXT --------------------------->
+    </article>
   </body>
 </html>

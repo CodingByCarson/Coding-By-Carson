@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css2?family=Arimo);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans);
+/* ------------------------------------------------ */
+html {
+  scrollbar-color: orange black;
+}
+::-webkit-scrollbar {
+  width: 16px;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: orange;
+}
+body {
+  background-color: #23252f;
+}
+/* ------------------------------------------------ */
+.navigation-contents {
+  display: flex;
+  font-family: "Arimo";
+}
+.navigation-contents a {
+  color: #faac04;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 35px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.navigation-contents a:hover {
+  transition: 0.3s;
+  color: white;
+}
+
+.navigation-contents-socials {
+  display: flex;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.navigation-contents-socials a {
+  margin-left: 0px;
+}
+/* ------------------------------------------------ */
+.about {
+  font-family: "Open Sans";
+  color: white;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 23px;
+}
+.about a {
+  color: white;
+}
+.about a:hover {
+  transition: 0.3s;
+  color: #faac04;
+}
