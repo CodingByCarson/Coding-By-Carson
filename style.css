@@ -52,6 +52,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-size: 23px;
+  margin-top: 110px;
 }
 .about a {
   color: white;
@@ -59,4 +60,96 @@ body {
 .about a:hover {
   transition: 0.3s;
   color: #faac04;
+}
+/* ------------------------------------------------ */
+.projects {
+  padding: 5px;
+}
+.project1 {
+  font-family: "Open Sans";
+  color: white;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 23px;
+  margin-top: 20px;
+}
+.project-button {
+  background-color: black;
+  border: none;
+  color: #faac04;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15%;
+}
+.project-button:hover {
+  transition: 0.3s;
+  scale: 1.1;
+}
+.project2 {
+  font-family: "Open Sans";
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 23px;
+}
+/* ------------------------------------------------ */
+.skills {
+  font-family: "Arimo";
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 200px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.skill1 {
+  background-color: black;
+  color: #faac04;
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 5%;
+  cursor: default;
+}
+.skill2 {
+  background-color: black;
+  color: #faac04;
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 5%;
+  cursor: default;
+}
+.skill3 {
+  background-color: black;
+  color: #faac04;
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 5%;
+  cursor: default;
+}
+.skill4 {
+  background-color: black;
+  color: #faac04;
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 5%;
+  cursor: default;
+}
+.skill5 {
+  background-color: black;
+  color: #faac04;
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 5%;
+  cursor: default;
 }
