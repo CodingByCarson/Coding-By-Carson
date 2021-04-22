@@ -153,3 +153,32 @@ body {
   border-radius: 5%;
   cursor: default;
 }
+/* ------------------------------------------------ */
+@media screen and (max-width: 600px) {
+  .navigation-contents {
+    display: flex;
+    flex-direction: column;
+    font-family: "Arimo";
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 0%;
+  }
+  .skill1 {
+    margin-top: 10px;
+  }
+  .skill2 {
+    margin-top: 10px;
+  }
+  .skill3 {
+    margin-top: 10px;
+  }
+  .skill4 {
+    margin-top: 10px;
+  }
+  .skill5 {
+    margin-top: 10px;
+  }
+}
