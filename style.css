@@ -1,7 +1,11 @@
+/* ------------------------------------------------ \*
+
+Copyright 2021, Coding By Carson, All Rights Reserved
+
+/* ------------------------------------------------ */
 @import url(https://fonts.googleapis.com/css2?family=Arimo);
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css2?family=Montserrat);
-
 /* ------------------------------------------------ */
 html {
   scrollbar-color: orange black;
@@ -15,8 +19,17 @@ html {
 ::-webkit-scrollbar-thumb {
   background: orange;
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
 body {
   background-color: #23252f;
+  animation: 1s ease-in 0s 1 fadeIn;
 }
 /* ------------------------------------------------ */
 .navigation-contents {
@@ -114,68 +127,118 @@ body {
   margin-right: auto;
   font-size: 23px;
 }
+.project4 {
+  font-family: "Open Sans";
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 23px;
+}
 /* ------------------------------------------------ */
 .skills1 {
   font-family: "Montserrat";
   display: flex;
+  margin: 20px;
+  flex-direction: column;
+  text-align: center;
   justify-content: space-evenly;
-  margin-top: 200px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   font-weight: 700;
+  align-items: center;
 }
 .skills2 {
   font-family: "Montserrat";
   display: flex;
+  flex-direction: column;
+  margin: 20px;
+  text-align: center;
   justify-content: space-evenly;
-  margin-top: 100px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   font-weight: 700;
+  align-items: center;
 }
 .skill1 {
   background-color: black;
   color: #faac04;
   font-size: 35px;
-  padding: 10px;
-  border-radius: 5%;
+  padding: 20px;
+  border-radius: 0%;
   cursor: default;
+  transition: 0.3s ease-in-out;
+  width: 341px;
+  text-align: center;
+}
+.skill1:hover {
+  scale: 1.1;
 }
 .skill2 {
   background-color: black;
   color: #faac04;
   font-size: 35px;
-  padding: 10px;
-  border-radius: 5%;
+  padding: 20px;
+  border-radius: 0%;
   cursor: default;
+  transition: 0.3s ease-in-out;
+  margin-top: 20px;
+  text-align: center;
+  width: 341px;
+}
+.skill2:hover {
+  scale: 1.1;
 }
 .skill3 {
   background-color: black;
   color: #faac04;
   font-size: 35px;
-  padding: 10px;
-  border-radius: 5%;
+  padding: 20px;
+  border-radius: 0%;
   cursor: default;
+  transition: 0.3s ease-in-out;
+  margin-top: 20px;
+  text-align: center;
+  width: 341px;
+}
+.skill3:hover {
+  scale: 1.1;
 }
 .skill4 {
   background-color: black;
   color: #faac04;
   font-size: 35px;
-  padding: 10px;
-  border-radius: 5%;
+  padding: 20px;
+  border-radius: 0%;
   cursor: default;
+  transition: 0.3s ease-in-out;
+  margin-top: 20px;
+  text-align: center;
+  width: 341px;
+}
+.skill4:hover {
+  scale: 1.1;
 }
 .skill5 {
   background-color: black;
   color: #faac04;
   font-size: 35px;
-  padding: 10px;
-  border-radius: 5%;
+  padding: 20px;
+  border-radius: 0%;
   cursor: default;
+  transition: 0.3s ease-in-out;
+  margin-top: 20px;
+  text-align: center;
+  width: 341px;
+}
+.skill5:hover {
+  scale: 1.1;
 }
 /* ------------------------------------------------ */
 @media screen and (max-width: 600px) {
@@ -183,26 +246,5 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Arimo";
-  }
-  .skills {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    border-radius: 0%;
-  }
-  .skill1 {
-    margin-top: 10px;
-  }
-  .skill2 {
-    margin-top: 10px;
-  }
-  .skill3 {
-    margin-top: 10px;
-  }
-  .skill4 {
-    margin-top: 10px;
-  }
-  .skill5 {
-    margin-top: 10px;
   }
 }
