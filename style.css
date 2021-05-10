@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Arimo);
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat);
+
 /* ------------------------------------------------ */
 html {
   scrollbar-color: orange black;
@@ -29,9 +31,9 @@ body {
   font-size: 35px;
   margin-left: 20px;
   margin-top: 20px;
+  transition: 0.3s ease-in-out;
 }
 .navigation-contents a:hover {
-  transition: 0.3s;
   color: white;
 }
 
@@ -56,9 +58,9 @@ body {
 }
 .about a {
   color: white;
+  transition: 0.3s ease-in-out;
 }
 .about a:hover {
-  transition: 0.3s;
   color: #faac04;
 }
 /* ------------------------------------------------ */
@@ -87,9 +89,9 @@ body {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 15%;
+  transition: 0.3s ease-in-out;
 }
 .project-button:hover {
-  transition: 0.3s;
   scale: 1.1;
 }
 .project2 {
@@ -102,9 +104,19 @@ body {
   margin-right: auto;
   font-size: 23px;
 }
+.project3 {
+  font-family: "Open Sans";
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 23px;
+}
 /* ------------------------------------------------ */
-.skills {
-  font-family: "Arimo";
+.skills1 {
+  font-family: "Montserrat";
   display: flex;
   justify-content: space-evenly;
   margin-top: 200px;
@@ -112,6 +124,18 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  font-weight: 700;
+}
+.skills2 {
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: 700;
 }
 .skill1 {
   background-color: black;
