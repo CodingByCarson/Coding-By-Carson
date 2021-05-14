@@ -105,7 +105,7 @@ body {
   transition: 0.3s ease-in-out;
 }
 .project-button:hover {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 .project2 {
   font-family: "Open Sans";
@@ -178,7 +178,7 @@ body {
   text-align: center;
 }
 .skill1:hover {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 .skill2 {
   background-color: black;
@@ -193,7 +193,7 @@ body {
   width: 341px;
 }
 .skill2:hover {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 .skill3 {
   background-color: black;
@@ -208,7 +208,7 @@ body {
   width: 341px;
 }
 .skill3:hover {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 .skill4 {
   background-color: black;
@@ -223,7 +223,7 @@ body {
   width: 341px;
 }
 .skill4:hover {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 .skill5 {
   background-color: black;
@@ -238,7 +238,7 @@ body {
   width: 341px;
 }
 .skill5:hover {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 /* ------------------------------------------------ */
 @media screen and (max-width: 600px) {
@@ -246,5 +246,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Arimo";
+  }
+  .about a {
+    font-size: 20px;
   }
 }
