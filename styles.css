@@ -58,6 +58,36 @@ body {
 .navigation-contents-socials a {
   margin-left: 0px;
 }
+/* -- */
+.navigation-contents-home {
+  display: flex;
+  font-family: "Arimo";
+  flex-direction: column;
+  text-align: center;
+  margin-top: 200px;
+}
+.navigation-contents-home a {
+  color: #faac04;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 30px;
+  transition: 0.3s ease-in-out;
+}
+.navigation-contents-home a:hover {
+  color: white;
+}
+
+.navigation-contents-socials-home {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navigation-contents-socials-home a {
+  margin-left: 0px;
+}
 /* ------------------------------------------------ */
 .about {
   font-family: "Open Sans";
@@ -246,6 +276,12 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Arimo";
+  }
+  .navigation-contents-home {
+    display: flex;
+    flex-direction: column;
+    font-family: "Arimo";
+    margin-top: 30px;
   }
   .about a {
     font-size: 20px;
