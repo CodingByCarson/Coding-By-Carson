@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans");
+/* ---------------------------------------- */
+body {
+  background-color: black;
+}
+html {
+  scrollbar-color: orange black;
+}
+::-webkit-scrollbar {
+  width: 16px;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: orange;
+}
+/* ---------------------------------------- */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+.newtab-main {
+  margin-top: 500px;
+  font-family: "Courier New", Courier, monospace;
+}
+.baseball {
+  margin-bottom: 500px;
+}
+.fun {
+  margin-bottom: 500px;
+}
+.tech {
+  margin-bottom: 500px;
+}
+.programming {
+  margin-bottom: 500px;
+}
+.weather {
+  margin-bottom: 700px;
+}
+.astronomy {
+  margin-bottom: 700px;
+}
+.news {
+  margin-bottom: 500px;
+}
+.psychology {
+  margin-bottom: 500px;
+}
+.newtab-main hr {
+  color: orange;
+}
+.newtab-main span {
+  font-size: 50px;
+  color: orange;
+  padding: 10px;
+}
+.newtab-main li {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.newtab-main a {
+  color: white;
+  transition: 0.2s;
+}
+.newtab-main a:hover {
+  color: orange;
+}
+.newtab-main ul {
+  color: white;
+  font-size: 30px;
+}
+.newtab-main li:hover {
+  color: orange;
+}
+.side {
+  padding: 50px;
+}
+.side-nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-size: 30px;
+  margin-top: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Work Sans";
+}
+.side-nav1 {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5%;
+  text-align: center;
+  transition: 0.3s;
+  color: black;
+  padding: 10px;
+}
+.side-nav1:hover {
+  background-color: black;
+  color: orange;
+}
+.side-nav2 {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5%;
+  text-align: center;
+  transition: 0.3s;
+  color: black;
+  padding: 10px;
+}
+.side-nav2:hover {
+  background-color: black;
+  color: orange;
+}
+.side-nav3 {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5%;
+  text-align: center;
+  transition: 0.3s;
+  color: black;
+  padding: 10px;
+}
+.side-nav3:hover {
+  background-color: black;
+  color: orange;
+}
+.side-nav4 {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5%;
+  text-align: center;
+  transition: 0.3s;
+  color: black;
+  padding: 10px;
+}
+.side-nav4:hover {
+  background-color: black;
+  color: orange;
+}
+.side-nav5 {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5%;
+  text-align: center;
+  transition: 0.3s;
+  color: black;
+  padding: 10px;
+}
+.side-nav5:hover {
+  background-color: black;
+  color: orange;
+}
+.side-nav6 {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5%;
+  text-align: center;
+  transition: 0.3s;
+  color: black;
+  padding: 10px;
+}
+.side-nav6:hover {
+  background-color: black;
+  color: orange;
+}
+.side-nav7 {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5%;
+  text-align: center;
+  transition: 0.3s;
+  color: black;
+  padding: 10px;
+}
+.side-nav7:hover {
+  background-color: black;
+  color: orange;
+}
+.side-nav8 {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5%;
+  text-align: center;
+  transition: 0.3s;
+  color: black;
+  padding: 10px;
+}
+.side-nav8:hover {
+  background-color: black;
+  color: orange;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.active {
+  margin-bottom: 20px;
+  background-color: black;
+  color: orange;
+  border-radius: 5%;
+  text-align: center;
+  transition: 0.3s;
+  padding: 10px;
+}
+/* ---------------------------------------- */
+#weatherWidget {
+  font-family: "Work Sans";
+}
