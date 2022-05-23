@@ -64,7 +64,7 @@ body {
   font-family: "Arimo";
   flex-direction: column;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 250px;
 }
 .navigation-contents-home a {
   color: #faac04;
@@ -87,24 +87,6 @@ body {
 }
 .navigation-contents-socials-home a {
   margin-left: 0px;
-}
-/* ------------------------------------------------ */
-.about {
-  font-family: "Open Sans";
-  color: white;
-  text-align: center;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 23px;
-  margin-top: 110px;
-}
-.about a {
-  color: white;
-  transition: 0.3s ease-in-out;
-}
-.about a:hover {
-  color: #faac04;
 }
 /* ------------------------------------------------ */
 .projects {
@@ -168,107 +150,27 @@ body {
   font-size: 23px;
 }
 /* ------------------------------------------------ */
-.skills1 {
-  font-family: "Montserrat";
-  display: flex;
-  margin: 20px;
-  flex-direction: column;
+.blog {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  justify-content: space-evenly;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-weight: 700;
-  align-items: center;
+  width: 300px;
 }
-.skills2 {
-  font-family: "Montserrat";
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  text-align: center;
-  justify-content: space-evenly;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-weight: 700;
-  align-items: center;
-}
-.skill1 {
-  background-color: black;
+.blog a {
   color: #faac04;
-  font-size: 35px;
-  padding: 20px;
-  border-radius: 0%;
-  cursor: default;
+  font-family: "Arimo";
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
   transition: 0.3s ease-in-out;
-  width: 341px;
-  text-align: center;
 }
-.skill1:hover {
-  transform: scale(1.1);
+.blog p {
+  font-family: "Open Sans";
+  color: white;
+  font-size: 12px;
 }
-.skill2 {
-  background-color: black;
-  color: #faac04;
-  font-size: 35px;
-  padding: 20px;
-  border-radius: 0%;
-  cursor: default;
-  transition: 0.3s ease-in-out;
-  margin-top: 20px;
-  text-align: center;
-  width: 341px;
-}
-.skill2:hover {
-  transform: scale(1.1);
-}
-.skill3 {
-  background-color: black;
-  color: #faac04;
-  font-size: 35px;
-  padding: 20px;
-  border-radius: 0%;
-  cursor: default;
-  transition: 0.3s ease-in-out;
-  margin-top: 20px;
-  text-align: center;
-  width: 341px;
-}
-.skill3:hover {
-  transform: scale(1.1);
-}
-.skill4 {
-  background-color: black;
-  color: #faac04;
-  font-size: 35px;
-  padding: 20px;
-  border-radius: 0%;
-  cursor: default;
-  transition: 0.3s ease-in-out;
-  margin-top: 20px;
-  text-align: center;
-  width: 341px;
-}
-.skill4:hover {
-  transform: scale(1.1);
-}
-.skill5 {
-  background-color: black;
-  color: #faac04;
-  font-size: 35px;
-  padding: 20px;
-  border-radius: 0%;
-  cursor: default;
-  transition: 0.3s ease-in-out;
-  margin-top: 20px;
-  text-align: center;
-  width: 341px;
-}
-.skill5:hover {
-  transform: scale(1.1);
+.blog a:hover {
+  color: white;
 }
 /* ------------------------------------------------ */
 @media screen and (max-width: 600px) {
